@@ -1,4 +1,4 @@
-#TEXT EDITOR
+# TEXT EDITOR
 
 Editor simples de texto com HTML, CSS e JavaScript.
 
