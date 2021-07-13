@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text Editor</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="text-editor">
+        <ul id="menu">
+          <li class="option-tool">
+            <button
+              type="button"
+              class="option-button"
+              id="bold-button"
+              data-action="bold"
+              onclick="setColor(event)"
+            >
+              N
+            </button>
+          </li>
+
+          <li class="option-tool">
+            <button
+              type="button"
+              class="option-button"
+              id="italic-button"
+              data-action="italic"
+              onclick="setColor(event)"
+            >
+              I
+            </button>
+          </li>
+
+          <li class="option-tool">
+            <button
+              type="button"
+              class="option-button"
+              data-action="underline"
+              id="underscored-button"
+              onclick="setColor(event)"
+            >
+              U
+            </button>
+          </li>
+        </ul>
+
+        <div id="textArea" contenteditable="true"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
